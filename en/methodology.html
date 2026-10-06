@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Validation study protocol – Ausculta | breathune.eu</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/style.css"><link rel="icon" href="../assets/icon.png">
+<style>@page{size:A4;margin:16mm}.pdf-only{display:none}@media print{.pdf-only{display:block}header nav,.no-print{display:none}h2{page-break-after:avoid}.card{page-break-inside:avoid}}</style>
+
+
+<link rel="alternate" hreflang="sk" href="../methodology.html"><link rel="alternate" hreflang="en" href="../en/methodology.html">
+</head><body><div class="wrap">
+<header class="nav"><div class="wrap">
+<a class="brand" href="index.html"><img src="../assets/icon.png" alt=""><span>Ausculta<small>by Breathune</small></span></a>
+<nav><a href="index.html#ako">How it works</a><a href="index.html#navod">Guide</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a class="cta" href="methodology.html">Study</a><a class="lang" href="../methodology.html" hreflang="sk" lang="sk" aria-label="Slovenská verzia">SK · <b>EN</b></a></nav>
+</div></header>
+<div class="wrap" style="padding-top:40px">
+
+<h1>Pilot validation study protocol</h1>
+<p class="lead" style="color:var(--muted);font-size:18px">Ausculta – smartphone and earbud auscultation with rhythm and breath-sound analysis. Method design: Ján Šikuta, MD, PhD · version 0.1 · 6 October 2026 · <a class="no-print" href="../Ausculta_Protokol_Studie.pdf">download PDF (Slovak)</a></p>
+
+<div class="card notice"><b>Purpose.</b> Describes how to test Ausculta so that the output is publishable numbers (agreement with a reference method), not impressions. It is a pilot – used to calibrate thresholds and estimate the sample size for a possible full study. Ausculta is an educational aid; the study does not change its regulatory status.</div>
+
+<h2><small>1</small>Aims and hypotheses</h2>
+<div class="grid">
+<div class="card"><h3>Primary aim</h3><p>Agreement of auscultation-derived heart rate (Ausculta) with reference ECG/pulse oximeter: mean difference and 95 % limits of agreement (Bland–Altman) at rest. Hypothesis: |bias| &lt; 3/min, LoA ±8/min for artifact-free signal.</p></div>
+<div class="card"><h3>Secondary aims</h3><p>(a) Sensitivity/specificity of premature-beat detection vs ECG; (b) agreement of rhythm classes (regular / with ectopy / irregularly irregular) with ECG; (c) agreement of respiratory rate with observer counting; (d) agreement of adventitious sounds (crackles/wheezes/rhonchi) with an experienced auscultating physician; (e) pulse deficit Ausculta vs Apple Watch vs manual apical–radial comparison.</p></div>
+<div class="card"><h3>Exploratory</h3><p>Quality differences between probes (iPhone vs AirPods H2 vs old AirPods HFP) and bells (cap, syringe, palm); effect of artifacts on error rates; usability (SUS questionnaire).</p></div>
+</div>
+
+<h2><small>2</small>Design and participants</h2>
+<div class="card"><p><b>Design:</b> prospective, single-arm method-comparison (diagnostic) agreement study; each participant is their own control (simultaneous Ausculta + reference measurement).<br>
+<b>Pilot:</b> 30 volunteers (adults, informed consent), purposively ≥ 10 with known arrhythmia/premature beats (cardiology clinic) and ≥ 10 with chronic lung disease (asthma/COPD/fibrosis), the rest healthy.<br>
+<b>Exclusion:</b> implanted pacemaker with unknown mode (rhythm aims only), skin lesions at the auscultation site, BMI &gt; 40 (weak signal – exploratory yes, primary analysis no).<br>
+<b>Ethics:</b> non-interventional, no risk; approval by the institutional ethics committee, anonymised IDs (P-001…), no names in recordings or metadata.</p></div>
+
+<h2><small>3</small>Devices and setup</h2>
+<table><tr><th>Item</th><th>Specification</th><th>Note</th></tr>
+<tr><td>iPhone</td><td>iOS 26, Ausculta ≥ 0.1, silent mode, no case on the bottom edge</td><td>same device throughout the study</td></tr>
+<tr><td>Earbuds A</td><td>AirPods Pro 3 (H2)</td><td>reference AirPod probe</td></tr>
+<tr><td>Earbuds B</td><td>AirPods 2 (HFP)</td><td>“old AirPods” arm</td></tr>
+<tr><td>Bells</td><td>PET cap Ø 30 mm/6 mm hole; 20 ml syringe; palm</td><td>randomise order</td></tr>
+<tr><td>Heart reference</td><td>12-lead ECG or single-lead Holter/KardiaMobile, simultaneously; finger pulse oximeter</td><td>time sync: a clap at the start</td></tr>
+<tr><td>Lung reference</td><td>simultaneous blinded auscultation with Littmann Classic III by two physicians; respiratory rate counted for 60 s</td><td>disagreement → third rater</td></tr>
+<tr><td>Apple Watch</td><td>Series 9/10/Ultra, Ausculta Watch app</td><td>for pulse deficit and ECG context</td></tr></table>
+
+<h2><small>4</small>Measurement procedure (≈ 15 min / participant)</h2>
+<div class="grid steps">
+<div class="card"><h3>Preparation</h3><p>Seated, 5 min rest, bare chest, quiet room (&lt; 40 dB(A) if possible), attach ECG electrodes / oximeter, Watch on the non-dominant wrist, ANC on for the ear side, AirPods microphone fixed to the probe side.</p></div>
+<div class="card"><h3>Synchronisation</h3><p>Start the ECG recording and recording in Ausculta; one loud clap near the chest = t₀ marker in both signals.</p></div>
+<div class="card"><h3>Heart – 4 × 30 s</h3><p>Apex (M), Heart filter: (1) iPhone probe + cap; (2) AirPods Pro 3 + cap; (3) AirPods 2 + cap; (4) iPhone probe + palm. After each segment save the recording with site and note “S1/S2 clear / unclear”.</p></div>
+<div class="card"><h3>Lungs – 2 × 30 s</h3><p>Left and right posterior bases, Lung filter, iPhone probe + cap, slow deep mouth breathing. Two physicians listen simultaneously with a Littmann and record: vesicular / diminished / bronchial; crackles (fine/coarse, phase); wheezes; rhonchi; prolonged expiration.</p></div>
+<div class="card"><h3>Pulse deficit – 60 s</h3><p>Apex, iPhone probe, Heart filter, Watch measurement started from Ausculta; meanwhile a third person counts the radial pulse for 60 s. Record: Ausculta HR, Ausculta Watch HR, manual radial pulse, ECG HR.</p></div>
+<div class="card"><h3>Questionnaire</h3><p>SUS (10 items) + 3 questions: clarity of the guide, bell comfort, perceived sound quality 1–5.</p></div>
+</div>
+
+<h2><small>5</small>Variables and analysis</h2>
+<table><tr><th>Variable</th><th>Ausculta</th><th>Reference</th><th>Statistics</th></tr>
+<tr><td>Heart rate</td><td>30 s mean (recording metadata)</td><td>ECG R-R mean over the same segment</td><td>Bland–Altman, ICC(2,1), Pearson</td></tr>
+<tr><td>Premature beats</td><td>count/min, bigeminy</td><td>SVPB/VPB count on ECG</td><td>Se, Sp, PPV per beat (±150 ms tolerance), Cohen's κ for bigeminy</td></tr>
+<tr><td>Rhythm class</td><td>regular / with ectopy / respiratory arrhythmia / irregularly irregular</td><td>ECG diagnosis</td><td>weighted κ, confusion matrix</td></tr>
+<tr><td>RR variability</td><td>CV, RMSSD from S1</td><td>CV, RMSSD from ECG</td><td>Bland–Altman</td></tr>
+<tr><td>Respiratory rate</td><td>/min</td><td>60 s count</td><td>Bland–Altman</td></tr>
+<tr><td>Breath character, adventitious sounds</td><td>class + counts</td><td>two-physician consensus</td><td>κ, Se/Sp per segment</td></tr>
+<tr><td>Pulse deficit</td><td>HR Ausculta − HR Watch</td><td>HR ECG − radial pulse</td><td>Bland–Altman; κ for “deficit ≥ 10”</td></tr>
+<tr><td>Signal quality</td><td>SNR, artifacts (flags)</td><td>—</td><td>stratification; exclude segments with clipping/handling</td></tr></table>
+<p style="color:var(--muted)">The pilot sample (n = 30, 120 heart segments) is enough to estimate LoA to ±1.5/min and the sensitivity of ectopy detection with a CI of ±15 % if the set contains ≥ 40 premature beats. The pilot will give n for the main study (target κ CI ±0.1).</p>
+
+<h2><small>6</small>Data collection and management</h2>
+<div class="card"><p>Ausculta stores <b>16-bit WAV</b> (48 kHz with the iPhone/H2 probe, 16 kHz with HFP) + <b>JSON</b> metadata (time, probe, filter, site, note, indicative results, artifact flags, Watch HR, deficit). Export: Share WAV → anonymised folder <code>P-0xx/</code> (audio + JSON + ECG export + CRF as CSV). Backups on an encrypted drive; no names; the ID↔person key kept separately by the investigator. The data table (CRF) has one row per segment: <code>id, usek, sonda, zvon, filter, miesto, HR_pulse, HR_ekg, ES_pulse, ES_ekg, rytmus_pulse, rytmus_ekg, RR_pulse, RR_ref, fenomeny_pulse, fenomeny_ref, HR_watch, radial, SNR, artefakty, SUS…</code></p></div>
+
+<h2><small>7</small>Calibration and iteration</h2>
+<div class="card"><p>After the first 10 participants: (1) review segments with HR error &gt; 10/min and find the cause (S2 counted as a beat, weak contact, HFP attenuation); (2) tune thresholds (detector threshold, S1–S2 pairing limit, CV class limits, crackle limits); (3) freeze parameters and <b>evaluate the remaining 20 participants without further changes</b> – otherwise results are optimistically biased. The app version and parameter hash are recorded in the CRF.</p></div>
+
+<h2><small>8</small>Outputs</h2>
+<div class="grid"><div class="card"><h3>Internal</h3><p>Calibration report, thresholds in code, a list of limitations for the App Store description (“in a pilot of n=30, HR agreement was…” only if the data allow).</p></div><div class="card"><h3>Publication</h3><p>Short communication / poster: „Earbud-and-smartphone auscultation: agreement of rhythm and breath-sound metrics with ECG and expert auscultation – a pilot“. Data (anonymised WAV + annotations) as an open dataset if participants consent – no AirPods-probe dataset exists today.</p></div><div class="card"><h3>Next step</h3><p>If κ for adventitious sounds &lt; 0.4: train a Core ML classifier (ICBHI 2017 + own data) instead of tuning heuristics.</p></div></div>
+
+<h2><small>9</small>Procedure illustrations</h2>
+<div class="grid"><div class="card"><img src="../assets/img/probe-iphone.svg" alt=""><h3>Segment 1 – iPhone probe</h3></div><div class="card"><img src="../assets/img/probe-airpod.svg" alt=""><h3>Segments 2–3 – AirPod probe</h3></div><div class="card"><img src="../assets/img/sites.svg" alt=""><h3>Site M and bases</h3></div><div class="card"><img src="../assets/img/watch-sync.svg" alt=""><h3>Pulse deficit</h3></div></div>
+
+</div><footer><div class="wrap">
+<span>© 2026 Breathune · breathune.eu · Ausculta is not a medical device.</span>
+<span><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="methodology.html">Study</a></span>
+</div></footer>
+<script src="../assets/site.js" defer></script>
+</div></body></html>
