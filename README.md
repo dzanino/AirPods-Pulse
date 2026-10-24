@@ -1,0 +1,1 @@
+Web Ausculty sa presunul do repozitára dzanino/ausculta-web (https://dzanino.github.io/ausculta-web/). Tento repozitár už len presmerúva staré odkazy (appka 2.0 a App Store Connect ich môžu ešte používať). Nemazať, kým sa odkazy v appke a v ASC nezmenia a staré verzie appky nezmiznú z obehu.
